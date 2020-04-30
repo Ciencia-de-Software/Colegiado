@@ -27,12 +27,12 @@
   border-bottom: 3px solid #252525;
   text-align: center;
   line-height: 40px;
-  font-size: 18pt;
+  font-size: 14pt;
   position: relative;
 }
 
 .menu ul li a {
-  font-size: 18pt;
+  font-size: 14pt;
 }
 
 .menu ul ul {
@@ -41,12 +41,12 @@
 
 .menu ul ul li a {
   background-color: #252525;
-  font-size: 12pt;
+  font-size: 10pt;
 }
 
 .menu ul ul li {
   background-color: #252525;
-  font-size: 12pt;
+  font-size: 10pt;
   z-index: 2;
 }
 
