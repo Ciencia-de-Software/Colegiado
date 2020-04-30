@@ -1,0 +1,38 @@
+.areaeventos {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.teventos {
+  color: #d8d8d8;
+  width: 100%;
+  font-size: 25pt;
+  font-family: monospace;
+  background-color: black;
+}
+
+.tabtítulo {
+  background-color: #8f8f8f;
+  color: #252525;
+  height: 75px;
+  text-align: center;
+}
+
+.tabnot {
+  width: 100%;
+}
+
+.tcorpo {
+  background-color: #252525;
+  padding: 20px;
+  font-size: 18pt;
+}
+
+.maisnot {
+  font-size: 12pt;
+  text-align: right;
+}
+
+.espacoev {
+  padding: 10%;
+}

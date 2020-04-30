@@ -1,0 +1,63 @@
+.cabeca {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  min-width: 600px;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #d8d8d8;
+  background-color: #252525;
+}
+
+.logo {
+  max-width: 300px
+}
+
+.menu ul {
+  padding: 0;
+}
+
+.menu ul li {
+  float: left;
+  font-family: monospace;
+  list-style: none;
+  width: 185px;
+  height: 40px;
+  border-bottom: 3px solid #252525;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18pt;
+  position: relative;
+}
+
+.menu ul li a {
+  font-size: 18pt;
+}
+
+.menu ul ul {
+  display: none;
+}
+
+.menu ul ul li a {
+  background-color: #252525;
+  font-size: 12pt;
+}
+
+.menu ul ul li {
+  background-color: #252525;
+  font-size: 12pt;
+  z-index: 2;
+}
+
+.menu ul li:hover {
+  border-bottom: 3px solid #ff9100;
+}
+
+.menu ul li:hover > ul {
+  display: block;
+}
+
+.menu ul li a:hover {
+  text-decoration: none;
+}

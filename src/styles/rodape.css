@@ -1,0 +1,47 @@
+.rodape {
+  width: 100%;
+  bottom: 0;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background-color: #8f8f8f;
+  color: #252525;
+  text-align: center;
+  font-family: monospace;
+  font-size: 14pt;
+  line-height: 20px;
+  color: #d8d8d8;
+}
+
+.rodape a {
+  font-family: monospace;
+  font-size: 14pt;
+  line-height: 10px;
+}
+
+.redes {
+  padding: 20px;
+}
+
+.redes a {
+  font-size: 50px;
+}
+
+.espaco {
+  padding: 10px;
+}
+
+.develops,
+.develops a {
+  font-style: italic;
+  font-size: 10pt;
+}
+
+.ana:hover {
+  color: purple;
+  text-decoration: none;
+}
+
+.edu:hover {
+  color: orange;
+  text-decoration: none;
+}

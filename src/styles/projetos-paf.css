@@ -1,0 +1,94 @@
+.titulo-pagina-paf {
+  font-size: 32px;
+  padding: 15px 25px 15px 25px;
+  width: 580px;
+  max-width: 80%;
+  font-family: monospace;
+  background-color: rgb(255, 145, 0, 0.5);
+}
+
+.conteudo-paf {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px 50px 50px 50px;
+  font-size: 18px;
+}
+
+.titulo-table-paf {
+  display: inline;
+  font-size: 30px;
+  margin-left: 60px;
+  font-family: monospace;
+  border-bottom: 2px solid #ff9100;
+}
+
+.div-input-empresas-paf {
+  margin-left: 500px;
+  display: inline;
+}
+
+.table-empresas-paf {
+  font-size: 16px;
+  border-collapse: collapse;
+  margin-top: 15px;
+  margin-left: 1%;
+  width: 95%;
+}
+
+.table-empresas-paf tr:nth-child(odd) {
+  background-color: rgb(49, 49, 49);
+}
+
+.table-empresas-paf tr:nth-child(even) {
+  background-color: none;
+}
+
+.table-empresas-paf td {
+  text-align: left;
+  padding: 8px 20px 8px 20px;
+}
+
+.table-empresas-paf th {
+  text-align: left;
+  border-bottom: 1px solid #ff9100;
+  background-color: rgb(26, 25, 25);
+  padding: 10px 20px 10px 20px;
+}
+
+.paginas-table-paf {
+  width: 150px;
+  margin: 5px 0px 40px 80%;
+}
+
+.paginas-table-paf button {
+  color: #d8d8d8;
+  background-color: #3b3b3b;
+  border: none;
+}
+
+.paginas-table-paf span {
+  font-size: 20px;
+  padding: 0 3px 0 3px;
+}
+
+.pagina-um {
+  text-decoration: underline;
+}
+
+.contatos-paf {
+  width: 135px;
+  margin-left: 40px;
+  font-size: 30px;
+  font-family: monospace;
+  border-bottom: 2px solid #ff9100;
+}
+
+.dados-do-paf {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  list-style-type: none;
+  margin-bottom: 40px;
+}
+
+.dados-do-paf li {
+  padding: 5px;
+}

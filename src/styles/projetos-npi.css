@@ -1,0 +1,88 @@
+.titulo-pagina-npi {
+  font-size: 32px;
+  padding: 15px 25px 15px 25px;
+  width: 410px;
+  font-family: monospace;
+  background-color: rgb(255, 145, 0, 0.5);
+}
+
+.conteudo-npi {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px 50px 50px 50px;
+  font-size: 18px;
+}
+
+.titulo-table-npi {
+  display: inline;
+  font-size: 30px;
+  margin-left: 60px;
+  font-family: monospace;
+  border-bottom: 2px solid #ff9100;
+}
+
+.table-projetos-npi {
+  font-size: 10pt;
+  border-collapse: collapse;
+  margin-top: 15px;
+  margin-left: 1%;
+  width: 95%;
+}
+
+.table-projetos-npi tr:nth-child(odd) {
+  background-color: rgb(49, 49, 49);
+}
+
+.table-projetos-npi tr:nth-child(even) {
+  background-color: none;
+}
+
+.table-projetos-npi td {
+  text-align: left;
+  padding: 8px 20px 8px 20px;
+}
+
+.table-projetos-npi th {
+  text-align: left;
+  border-bottom: 1px solid #ff9100;
+  background-color: rgb(26, 25, 25);
+  padding: 10px 20px 10px 20px;
+}
+
+.paginas-table-projetos {
+  width: 150px;
+  margin: 5px 0px 40px 80%;
+}
+
+.paginas-table-projetos button {
+  color: #d8d8d8;
+  background-color: #3b3b3b;
+  border: none;
+}
+
+.paginas-table-projetos span {
+  font-size: 20px;
+  padding: 0 3px 0 3px;
+}
+
+.pagina-um-projetos {
+  text-decoration: underline;
+}
+
+.atendimento-npi {
+  width: 180px;
+  margin-left: 40px;
+  font-size: 30px;
+  font-family: monospace;
+  border-bottom: 2px solid #ff9100;
+}
+
+.dados-do-npi {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  list-style-type: none;
+  margin-bottom: 40px;
+}
+
+.dados-do-npi li {
+  padding: 5px;
+}
