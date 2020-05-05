@@ -172,6 +172,7 @@ export default () =>
                         </tr>
                     }
                 />
+                <br />
                 <Parceria1
                     empresa="IBM"
                     site="https://www.ibm.com/br-pt"
