@@ -65,29 +65,29 @@
 
 .titulo-parceira1 {
   padding: 30px;
-  font-size: 32pt;
+  font-size: 30pt;
   color: #ff9100;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-align: right;
 }
 
 .titulo-parceira2 {
   padding: 30px;
-  font-size: 32pt;
+  font-size: 30pt;
   color: #ff9100;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-  text-align: right;
 }
 
-.resumo-parceira1 {
+.resumo-parceira1 p {
+  text-align: right;
+  line-height: 25pt;
   font-family: monospace;
-  line-height: 30pt;
   font-size: 18pt;
   padding: 30px;
 }
 
-.resumo-parceira2 {
-  text-align: right;
-  line-height: 30pt;
+.resumo-parceira2 p {
+  line-height: 25pt;
   font-family: monospace;
   font-size: 18pt;
   padding: 30px;

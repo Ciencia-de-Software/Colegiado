@@ -29,8 +29,8 @@ const Parceria1 = props => (
                 <td id={props.empresaId}><p class="titulo-parceira1"><h1>{props.empresa}</h1></p></td>
             </tr>
             <tr>
-                <td>
-                    <p class="resumo-parceira1">{props.resumo}</p>
+                <td class="resumo-parceira1">
+                    {props.resumo}
                 </td>
             </tr>
             <tr class="par-atalhos1">
@@ -48,8 +48,8 @@ const Parceria2 = props => (
                 <td rowSpan="3"><a href={props.site} target="_blank" rel="noopener noreferrer"><img class="logo-par" src={props.logo} alt="Logo" width={props.larguralogo} height={props.alturalogo} /></a></td>
             </tr>
             <tr>
-                <td>
-                    <p class="resumo-parceira2">{props.resumo}</p>
+                <td class="resumo-parceira2">
+                    {props.resumo}
                 </td>
             </tr>
             <tr class="par-atalhos2">
@@ -83,7 +83,13 @@ export default () =>
                 logo={Abramti}
                 larguralogo="350px"
                 alturalogo="210px"
-                resumo="O Colegiado de Computação firmou parceria com a ABRAMTI (Associação Brasileira de Melhoria em TI) para aplicação de exames de certificação CTFL para testes de software e engenharia de requisitos. Estes exames são de idealização da ISTQB, instituição sediada no Reino Unido, com reconhecimento internacional, representada no Brasil pela BSTQB, componente da ABRAMTI. A UniFil aplica os exames na região de Londrina para a ABRAMTI e, em contrapartida, conta com três indicações para prestar a prova gratuitamente, por data de aplicação."
+                resumo={
+                    <>
+                    <p>O Colegiado de Computação firmou parceria com a ABRAMTI (Associação Brasileira de Melhoria em TI) para aplicação de exames de certificação CTFL para testes de software e engenharia de requisitos.</p>
+                    <p>Estes exames são de idealização da ISTQB, instituição sediada no Reino Unido, com reconhecimento internacional, representada no Brasil pela BSTQB, componente da ABRAMTI.</p>
+                    <p>A UniFil aplica os exames na região de Londrina para a ABRAMTI e, em contrapartida, conta com três indicações para prestar a prova gratuitamente, por data de aplicação.</p>
+                    </>
+                }
                 redesocial={
                 <td>
                     <a href="https://www.linkedin.com/company/abramti/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
@@ -97,7 +103,12 @@ export default () =>
                 logo={Bizagi}
                 larguralogo="350px"
                 alturalogo="105px"
-                resumo="A Bizagi é uma empresa privada de software criada em 1989 com sede no Reino Unido e escritórios nos EUA, Espanha e América Latina. A Bizagi é reconhecida como a única plataforma que pode realmente ser utilizada tanto em automatizações de processos complexos quanto em processos mais simples em empresas, ajudando empresas a se transformar digitalmente automatizando seus processos."
+                resumo={
+                    <>
+                    <p>A Bizagi é uma empresa privada de software criada em 1989 com sede no Reino Unido e escritórios nos EUA, Espanha e América Latina.</p>
+                    <p>A Bizagi é reconhecida como a única plataforma que pode realmente ser utilizada tanto em automatizações de processos complexos quanto em processos mais simples em empresas, ajudando empresas a se transformar digitalmente automatizando seus processos.</p>
+                    </>
+                }
                 redesocial={
                 <td>
                     <a href="https://www.facebook.com/bizagi" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'facebook-square']} /></a>
@@ -114,7 +125,12 @@ export default () =>
                 logo={Cisco}
                 larguralogo="350px"
                 alturalogo="350px"
-                resumo="A Cisco Systems, Inc. é uma companhia transnacional estadunidense sediada em San José, Califórnia.A atividade principal da Cisco é o oferecimento de soluções para redes e comunicações quer seja na fabricação e venda."
+                resumo={
+                    <>
+                    <p>A Cisco Systems, Inc. é uma companhia transnacional estadunidense sediada em San José, Califórnia.</p>
+                    <p>A atividade principal da Cisco é o oferecimento de soluções para redes e comunicações quer seja na fabricação e venda.</p>
+                    </>
+                }
                 redesocial={
                 <td>
                     <a href="https://www.instagram.com/ciscodobrasil/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
@@ -132,7 +148,12 @@ export default () =>
                 logo={Google}
                 larguralogo="350px"
                 alturalogo="350px"
-                resumo="O Google é uma empresa multinacional de serviços online e software. O Google for Education é um serviço do Google que fornece versões personalizáveis ​​de forma independente de vários produtos do Google, usando um nome de domínio fornecido pelo cliente."
+                resumo={
+                    <>
+                    <p>Google LLC é uma empresa multinacional de serviços online e software dos Estados Unidos, que hospeda e desenvolve uma série de serviços e produtos baseados na internet e gera lucro principalmente através da publicidade pelo AdWords.</p>
+                    <p>O Google for Education é um serviço do Google que fornece versões personalizáveis ​​de forma independente de vários produtos do Google, usando um nome de domínio fornecido pelo cliente.</p>
+                    </>
+                }
                 redesocial={
                 <td>
                     <a href="https://www.instagram.com/google/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
@@ -150,7 +171,13 @@ export default () =>
                 logo={Ibm}
                 larguralogo="350px"
                 alturalogo="350px"
-                resumo="A Instituição participa do programa IBM Academic Initiative, tendo acesso à quase todos os softwares e sistemas da IBM, inclusive os da Rational. O programa também prevê acesso diferenciado e com descontos nos serviços de nuvem da empresa, o Bluemix e Watson, além de acesso remoto à máquinas de grande porte, como mainframes System Z, S/390 e computadores quânticos. Por fim, os acadêmicos ainda têm acesso a documentos, manuais, artigos e cursos sobre tecnologias da empresa."
+                resumo={
+                    <>
+                    <p>A Instituição participa do programa IBM Academic Initiative, tendo acesso à quase todos os softwares e sistemas da IBM, inclusive os da Rational.</p>
+                    <p>O programa também prevê acesso diferenciado e com descontos nos serviços de nuvem da empresa, o Bluemix e Watson, além de acesso remoto à máquinas de grande porte, como mainframes System Z, S/390 e computadores quânticos.</p>
+                    <p>Por fim, os acadêmicos ainda têm acesso a documentos, manuais, artigos e cursos sobre tecnologias da empresa.</p>
+                    </>
+                }
                 redesocial={
                 <td>
                     <a href="https://www.instagram.com/ibm/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
@@ -168,7 +195,13 @@ export default () =>
                 logo={Jetbrains}
                 larguralogo="350px"
                 alturalogo="350px"
-                resumo="JetBrains s.r.o. é uma empresa de desenvolvimento de software cujas ferramentas são direcionadas a desenvolvedores de software e gerentes de projeto.Ajudando desenvolvedores, a automatizar tarefas comuns e repetitivas para permitir que eles permaneçam concentrados no design do código e no panorama geral. A JetBrains também fornece ferramentas para explorar e dominar bases de código com mais rapidez, facilitando a atenção aos níveis de qualidade durante todo o desenvolvimento e reduzindo o tempo gasto com tarefas de manutenção."
+                resumo={
+                    <>
+                    <p>JetBrains s.r.o. é uma empresa de desenvolvimento de software cujas ferramentas são direcionadas a desenvolvedores de software e gerentes de projeto.</p>
+                    <p>Ajudando desenvolvedores, a automatizar tarefas comuns e repetitivas para permitir que eles permaneçam concentrados no design do código e no panorama geral.</p>
+                    <p>A JetBrains também fornece ferramentas para explorar e dominar bases de código com mais rapidez, facilitando a atenção aos níveis de qualidade durante todo o desenvolvimento e reduzindo o tempo gasto com tarefas de manutenção.</p>
+                    </>
+                }
                 redesocial={
                 <td>
                     <a href="https://www.instagram.com/jetbrains/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
@@ -186,7 +219,11 @@ export default () =>
                 logo={Rha}
                 larguralogo="350px"
                 alturalogo="420px"
-                resumo="O programa Red Hat Academy fornece às instituições acadêmicas toda a infraestrutura do Red Hat Training and Certification para transformá-las em centros de formação de talentos preparados para atuar no mercado corporativo."
+                resumo={
+                    <>
+                    <p>O programa Red Hat Academy fornece às instituições acadêmicas toda a infraestrutura do Red Hat Training and Certification para transformá-las em centros de formação de talentos preparados para atuar no mercado corporativo.</p>
+                    </>
+                }
                 redesocial={
                 <td>
                     <a href="https://www.facebook.com/RedHatBrasil/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'facebook-square']} /></a>        
