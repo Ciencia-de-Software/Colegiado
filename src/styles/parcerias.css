@@ -1,45 +1,46 @@
-.navegacao {
-  position: fixed;
-  float: right;
-  right: 0;
-  top: 1;
-  padding-right: 15px;
-  border-style: ridge;
-  background-color: rgba(0, 0, 0, 0.5);
-  text-align: right;
-}
-
-.div-parcerias {
-  padding-top: 3%;
-  padding-bottom: 3%;
-}
-
-.navegacao ul {
-  list-style: none;
-}
-
-.navegacao a {
-  font-size: 12pt;
-}
-
 .partitulo {
   text-align: center;
   font-family: monospace;
   padding-top: 35%;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   color: #ff9100;
-  font-size: 48pt;
+  font-size: 40pt;
   background-image: url(../images/parceria.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
-.parceira1,
+.navegação{
+  padding: 10px;
+  text-align: center;
+}
+
+.navegação img{
+  vertical-align: middle;
+  filter: grayscale(100%);
+  padding-left: 30px;
+  width: 50px;
+}
+
+.navegação img:hover{
+  filter: grayscale(0%);
+}
+
+.parceira1 {
+  width: 100%;
+  padding: 50px;
+  background-color: #3b3b3b;
+}
+
 .parceira2 {
   width: 100%;
-  border: #d8d8d8 solid;
+  padding: 50px;
   background-color: #292929;
+}
+
+.logo-par {
+  padding: 50px;
 }
 
 .parceira1 td,
@@ -47,41 +48,47 @@
   padding: 5px;
 }
 
-.tab-redes td a {
-  font-size: 30px;
+.par-atalhos1,
+.par-atalhos1 a {
+  text-align: right;
+  padding-left: 20px;
+  font-size: 40px;
   color: #ff9100;
+}
+
+.par-atalhos2,
+.par-atalhos2 a {
+  padding-left: 20px;
+  font-size: 40px;
+  color: #ff9100;
+}
+
+.titulo-parceira1 {
+  padding: 30px;
+  font-size: 32pt;
+  color: #ff9100;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.titulo-parceira2 {
+  padding: 30px;
+  font-size: 32pt;
+  color: #ff9100;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-align: right;
 }
 
 .resumo-parceira1 {
   font-family: monospace;
-  font-size: 12pt;
-}
-
-.titulo-parceira1 {
-  color: #ff9100;
-}
-
-.titulo-parceira2 {
-  color: #ff9100;
-  text-align: right;
+  line-height: 30pt;
+  font-size: 18pt;
+  padding: 30px;
 }
 
 .resumo-parceira2 {
   text-align: right;
+  line-height: 30pt;
   font-family: monospace;
-  font-size: 12pt;
-}
-
-.par-redes {
-  font-size: 14pt;
-  font-family: monospace;
-  color: #ff9100;
-}
-
-.tab-redes {
-  width: 100%;
-}
-
-.tab-redes a {
-  font-size: 14pt;
+  font-size: 18pt;
+  padding: 30px;
 }
