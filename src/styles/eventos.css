@@ -8,31 +8,27 @@
   width: 100%;
   font-size: 25pt;
   font-family: monospace;
-  background-color: black;
+  background-color: #252525;
 }
 
 .tabtítulo {
-  background-color: #8f8f8f;
-  color: #252525;
-  height: 75px;
+  padding: 10px;
   text-align: center;
 }
 
-.tabnot {
-  width: 100%;
-}
-
 .tcorpo {
-  background-color: #252525;
   padding: 20px;
   font-size: 18pt;
 }
 
-.maisnot {
-  font-size: 12pt;
-  text-align: right;
+.tcorpo:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #292929;
 }
 
-.espacoev {
-  padding: 10%;
+.maisnot {
+  background-color: black;
+  font-size: 12pt;
+  text-align: right;
 }

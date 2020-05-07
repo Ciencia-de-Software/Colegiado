@@ -10,9 +10,10 @@ export default () =>
     <>
         <div class="rodape">
             <div class="logo2">
-                <img src={Logo2} alt="Logo UniFil"></img>
+                <a href="https://unifil.br/portal/" target="_blank" rel="noopener noreferrer"><img src={Logo2} alt="Logo UniFil"></img></a>
             </div>
             <div class="endereco">
+                <br />
                 <p>Av. Juscelino Kubitschek, 1626, Londrina-PR, CEP:86.020-000 | Fone:<a href="tel:43 3375 7474">43 3375 7474</a></p>
             </div>
             <div class="redes">

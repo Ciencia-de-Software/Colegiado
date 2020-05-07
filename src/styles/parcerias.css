@@ -29,23 +29,18 @@
 
 .parceira1 {
   width: 100%;
-  padding: 50px;
+  padding: 2%;
   background-color: #3b3b3b;
 }
 
 .parceira2 {
   width: 100%;
-  padding: 50px;
+  padding: 2%;
   background-color: #292929;
 }
 
 .logo-par {
   padding: 50px;
-}
-
-.parceira1 td,
-.parceira2 td {
-  padding: 5px;
 }
 
 .par-atalhos1,
