@@ -12,6 +12,7 @@
 }
 
 .tabtítulo {
+  border-bottom: solid #ff9100;
   padding: 10px;
   text-align: center;
 }
@@ -33,6 +34,5 @@
 }
 
 .maisnot a:hover{
-  color: white;
-  text-decoration: underline;
+  color: #ff9100;
 }

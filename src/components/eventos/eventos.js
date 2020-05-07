@@ -3,8 +3,9 @@ import React from "react"
 export default () =>
     <>
         <div class="teventos">
-            <h1 class="tabtítulo">Notícias</h1>
-            <hr />
+            <div class="tabtítulo">
+            <h1>Notícias</h1>
+            </div>
             <a href="https://www.unifil.br/portal/institucional/quem-somos/noticias/80-gerais/179-empregado-e-com-projeto-premiado-rafael-e-destaque-na-computacao" target="_blank" rel="noopener noreferrer">
                 <div class="tcorpo">
                     <p class="not1">Empregado e com projeto premiado: Rafael é destaque na Computação</p>
