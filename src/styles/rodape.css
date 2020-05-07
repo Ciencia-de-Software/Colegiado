@@ -24,15 +24,12 @@
 }
 
 .redes a {
+  padding: 10px;
   font-size: 50px;
 }
 
 .redes a:hover {
   color: #ff9100;
-}
-
-.espaco {
-  padding: 10px;
 }
 
 .develops,

@@ -6,7 +6,7 @@
 body {
   background-color: #3b3b3b;
   color: #d8d8d8;
-  min-width: 1050px;
+  min-width: 1125px;
 }
 
 .corpo {
@@ -28,10 +28,6 @@ a {
   line-height: 28px;
   color: #d8d8d8;
   text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 .titulo-index {

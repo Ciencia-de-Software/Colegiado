@@ -19,9 +19,7 @@ export default () =>
             <div class="redes">
                 <p>
                     <a href="https://www.instagram.com/computacaounifil/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'instagram']}/></a>
-                    <span class="espaco"></span>
                     <a href="https://www.facebook.com/ComputacaoUnifil/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'facebook-square']}/></a>
-                    <span class="espaco"></span>
                     <a href="https://www.youtube.com/user/unifillondrina" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'youtube']}/></a>
                 </p>
             </div>

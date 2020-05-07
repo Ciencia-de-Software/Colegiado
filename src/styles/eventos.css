@@ -22,7 +22,6 @@
 }
 
 .tcorpo:hover{
-  text-decoration: none;
   color: white;
   background-color: #292929;
 }
@@ -31,4 +30,9 @@
   background-color: black;
   font-size: 12pt;
   text-align: right;
+}
+
+.maisnot a:hover{
+  color: white;
+  text-decoration: underline;
 }

@@ -46,6 +46,7 @@
 .par-atalhos1,
 .par-atalhos1 a {
   text-align: right;
+  margin-right: 20px;
   padding-left: 20px;
   font-size: 40px;
   color: #ff9100;
@@ -53,6 +54,7 @@
 
 .par-atalhos2,
 .par-atalhos2 a {
+  margin-right: 20px;
   padding-left: 20px;
   font-size: 40px;
   color: #ff9100;
