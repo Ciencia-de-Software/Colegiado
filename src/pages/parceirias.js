@@ -5,9 +5,9 @@ import Abramti from "../images/ABRAMTI/abramti.png"
 import IconAbramti from "../images/Navegação/abramti.png"
 import Bizagi from "../images/Bizagi/bizagi.png"
 import IconBizagi from "../images/Navegação/bizagi.png"
-import Cisco from "../images/CISCO/cisco.jpg"
+import Cisco from "../images/CISCO/cisco.png"
 import IconCisco from "../images/Navegação/cisco.png"
-import Google from "../images/Google/google.jpg"
+import Google from "../images/Google/google.png"
 import IconGoogle from "../images/Navegação/google.png"
 import Ibm from "../images/IBM/ibm.jpg"
 import IconIbm from "../images/Navegação/ibm.jpg"
@@ -64,18 +64,15 @@ export default () =>
         <Cabecalho />
         <p class="partitulo"><h1><strong>Parcerias Acadêmicas</strong></h1></p>
         <br />
-        <hr />
         <nav class="navegação">
-                <a href="#abramti"><img src={IconAbramti} alt=""/></a>
-                <a href="#bizagi"><img src={IconBizagi} alt=""/></a>
-                <a href="#cisco"><img src={IconCisco} alt=""/></a>
-                <a href="#google"><img src={IconGoogle} alt=""/></a>
-                <a href="#ibm"><img src={IconIbm} alt=""/></a>
-                <a href="#jetbrains"><img src={IconJetbrains} alt=""/></a>
-                <a href="#rha"><img src={IconRha} alt=""/></a>
+                <a href="#abramti"><span class="nav1"><img src={IconAbramti} alt=""/></span></a>
+                <a href="#bizagi"><span class="nav2"><img src={IconBizagi} alt=""/></span></a>
+                <a href="#cisco"><span class="nav3"><img src={IconCisco} alt=""/></span></a>
+                <a href="#google"><span class="nav4"><img src={IconGoogle} alt=""/></span></a>
+                <a href="#ibm"><span class="nav5"><img src={IconIbm} alt=""/></span></a>
+                <a href="#jetbrains"><span class="nav6"><img src={IconJetbrains} alt=""/></span></a>
+                <a href="#rha"><span class="nav7"><img src={IconRha} alt=""/></span></a>
         </nav>
-        <a class="top-button" href="#">^</a>
-        <hr />
         <div class="div-parcerias">
             <Parceria1
                 empresa="ABRAMTI"
@@ -103,7 +100,7 @@ export default () =>
                 site="https://www.bizagi.com/?lang=pt"
                 logo={Bizagi}
                 larguralogo="350px"
-                alturalogo="105px"
+                alturalogo="125px"
                 resumo={
                     <>
                     <p>A Bizagi é uma empresa privada de software criada em 1989 com sede no Reino Unido e escritórios nos EUA, Espanha e América Latina.</p>
