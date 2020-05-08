@@ -32,7 +32,7 @@
   vertical-align: middle;
   filter: grayscale(100%);
   padding: 25px;
-  width: 175px;
+  width: 170px;
 }
 
 /* 
@@ -57,18 +57,18 @@
 .nav2 img:hover,
 .nav3 img:hover,
 .nav5 img:hover {
-  width: 310px;
+  width: 270px;
 }
 
 .nav1 img:hover,
 .nav4 img:hover,
 .nav6 img:hover {
-  width: 210px;
+  width: 200px;
 }
 
 .nav7 img:hover {
-  width: 187.5px;
-  height: 250px;
+  width: 172.5px;
+  height: 230px;
 }
 
 .navegação img:hover{
