@@ -24,7 +24,7 @@ export default () =>
                 </p>
             </div>
             <div class="develops">
-                <p>Desenvolvido por: <a class="edu" href="https://github.com/dudulacerdadl" target="_blank" rel="noopener noreferrer">Eduardo Lacerda</a> e <a class="ana" href="https://github.com/daisyblue707" target="_blank" rel="noopener noreferrer">Ana Kataoka</a></p>
+                <p>Desenvolvido por: <a class="edu" href="https://github.com/dudulacerdadl" target="_blank" rel="noopener noreferrer">Eduardo Lacerda</a> e <a class="ana" href="https://github.com/AnaGabiK" target="_blank" rel="noopener noreferrer">Ana Kataoka</a></p>
             </div>
         </div>
     </>

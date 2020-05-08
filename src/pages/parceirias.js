@@ -215,8 +215,8 @@ export default () =>
                 empresaId="rha"
                 site="https://www.redhat.com/pt-br/services/training/red-hat-academy"
                 logo={Rha}
-                larguralogo="350px"
-                alturalogo="420px"
+                larguralogo="320px"
+                alturalogo="450px"
                 resumo={
                     <>
                     <p>O programa Red Hat Academy fornece às instituições acadêmicas toda a infraestrutura do Red Hat Training and Certification para transformá-las em centros de formação de talentos preparados para atuar no mercado corporativo.</p>

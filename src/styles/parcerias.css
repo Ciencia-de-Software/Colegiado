@@ -45,15 +45,14 @@
   filter: grayscale(0%);
 }
 
-.parceira1 {
+.parceira1,
+.parceira2 {
   width: 100%;
   padding: 2%;
   background-color: #3b3b3b;
 }
 
 .parceira2 {
-  width: 100%;
-  padding: 2%;
   background-color: #292929;
 }
 
@@ -62,14 +61,7 @@
 }
 
 .par-atalhos1,
-.par-atalhos1 a {
-  text-align: right;
-  margin-right: 20px;
-  padding-left: 20px;
-  font-size: 40px;
-  color: #ff9100;
-}
-
+.par-atalhos1 a,
 .par-atalhos2,
 .par-atalhos2 a {
   margin-right: 20px;
@@ -78,14 +70,12 @@
   color: #ff9100;
 }
 
-.titulo-parceira1 {
-  padding: 30px;
-  font-size: 30pt;
-  color: #ff9100;
-  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+.par-atalhos1,
+.par-atalhos1 a {
   text-align: right;
 }
 
+.titulo-parceira1,
 .titulo-parceira2 {
   padding: 30px;
   font-size: 30pt;
@@ -93,17 +83,18 @@
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
-.resumo-parceira1 p {
+.titulo-parceira1 {
   text-align: right;
+}
+
+.resumo-parceira1 p,
+.resumo-parceira2 p {
   line-height: 25pt;
   font-family: monospace;
   font-size: 18pt;
   padding: 30px;
 }
 
-.resumo-parceira2 p {
-  line-height: 25pt;
-  font-family: monospace;
-  font-size: 18pt;
-  padding: 30px;
+.resumo-parceira1 p {
+  text-align: right;
 }
