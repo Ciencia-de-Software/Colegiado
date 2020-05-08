@@ -10,11 +10,11 @@ import IconCisco from "../images/Navegação/cisco.png"
 import Google from "../images/Google/google.png"
 import IconGoogle from "../images/Navegação/google.png"
 import Ibm from "../images/IBM/ibm.jpg"
-import IconIbm from "../images/Navegação/ibm.jpg"
+import IconIbm from "../images/Navegação/ibm.png"
 import Jetbrains from "../images/Jetbrains/jetbrains.png"
 import IconJetbrains from "../images/Navegação/jetbrains.png"
 import Rha from "../images/RedHat/rha.jpg"
-import IconRha from "../images/Navegação/rha.jpg"
+import IconRha from "../images/Navegação/rha.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
