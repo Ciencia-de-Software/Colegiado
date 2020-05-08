@@ -74,6 +74,7 @@ export default () =>
                 <a href="#jetbrains"><img src={IconJetbrains} alt=""/></a>
                 <a href="#rha"><img src={IconRha} alt=""/></a>
         </nav>
+        <a class="top-button" href="#">^</a>
         <hr />
         <div class="div-parcerias">
             <Parceria1
