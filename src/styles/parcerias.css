@@ -29,16 +29,11 @@
 }
 
 .navegação img{
+  margin: 10px 100px 10px 100px;
   vertical-align: middle;
   filter: grayscale(100%);
   padding: 25px;
   width: 200px;
-}
-
-.nav2 img,
-.nav4 img,
-.nav6 img {
-  background-color: #292929
 }
 
 .navegação img:hover{
@@ -52,7 +47,7 @@
   background-color: #3b3b3b;
 }
 
-.parceira2 {
+.parceira1 {
   background-color: #292929;
 }
 
