@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Colegiado de Computação UniFil em Gatsby
+  Colegiado de Computação em Gatsby
 </h1>
 
 Esse é um projeto de site inicado em 2020 pelos colaboradores [Eduardo Lacerda](https://github.com/dudulacerdadl) e [Ana Takaoka](https://github.com/AnaGabiK) com o intuido de criar uma página para o Colegiado de Computação da UniFil, utilizando o Gatsby como ferramenta para essa construção.
