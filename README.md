@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://unifil.br/portal/">
-    <img alt="UniFil" src="http://manager.bancarioslondrina.org.br/files/UniFil_Logo_Verical-01.png" width="60" />
+    <img alt="UniFil" src="http://manager.bancarioslondrina.org.br/files/UniFil_Logo_Verical-01.png" width="200" />
   </a>
 </p>
 <h1 align="center">
