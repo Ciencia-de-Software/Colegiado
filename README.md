@@ -13,31 +13,42 @@ _Não conhece o gatsby? Inicie o tutorial e intale as ferramentas atravéz do [s
 
 ## 🚀 Iniciando o Projeto
 
-1.  **Create a Gatsby site.**
+1.  **Ferramentas necessárias.**
 
-    Use the Gatsby CLI to create a new site, specifying the hello-world starter.
+    Para começar a edição desse projeto, você precisará de algumas ferramentas para utilização do Gatsby, entre elas estão o [Node.js](https://nodejs.org/pt-br/) e o [Git](https://gitforwindows.org/). Você também precisará de um editor de códigos, nossa recomendação é utilizar o [Visual Studio Code](https://code.visualstudio.com/), mas você é livre para usar o de sua preferência.
+
+    Tendo essas ferramentas em sua máquina, agora você precisa insatalar o Gatsby CLI através do Node.js.
 
     ```shell
-    # create a new Gatsby site using the hello-world starter
-    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
+    # Dentro do terminal, execute o seguinte comando:
+    npm install -g gatsby-cli
     ```
 
-1.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
+    Agora o Gatsby está pronto para ser executado! Para ver os comandos disponíveis agora, execute:
 
     ```shell
-    cd my-hello-world-starter/
+    gatsby --help
+    ```
+
+2.  **Comece o desenvolvimento.**
+
+    Navegue até o diretório do seu novo site e inicie-o com os seguintes comandos:
+
+    ```shell
+    cd colegiado
+    # Caso tenha instalado o Visual Studio Code, execute o seguinte comando para abrir o código no mesmo:
+    code .
+    # Logo após, volte para o terminal e execute o seguinte comando:
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
+3.  **Abra o código fonte e comece a editar!**
 
-    Your site is now running at `http://localhost:8000`!
+    Seu site agora está sendo executado em `http://localhost:8000`!
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+    _Nota: Você também verá um segundo link: `http://localhost:8000/___graphql`. Esta é uma ferramenta que você pode usar para experimentar a consulta de seus dados. Saiba mais sobre o uso dessa ferramenta no [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `my-hello-world-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Salve suas alterações e o navegador será atualizado em tempo real!
 
 ## 🧐 What's inside?
 
@@ -80,14 +91,6 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
 12. **`README.md`**: A text file containing useful reference information about your project.
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
 ## 💫 Deploy
 
