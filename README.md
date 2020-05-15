@@ -9,7 +9,7 @@
 
 Esse é um projeto de site inicado em 2020 pelos colaboradores [Eduardo Lacerda](https://github.com/dudulacerdadl) e [Ana Takaoka](https://github.com/AnaGabiK) com o intuido de criar uma página para o Colegiado de Computação da UniFil, utilizando o Gatsby como ferramenta para essa construção.
 
-_Não conhece o gatsby? Inicie o tutorial e intale as ferramentas atravéz do [site oficial](https://www.gatsbyjs.org/tutorial/)._
+_Não conhece o gatsby? Inicie o tutorial e intale as ferramentas através do [site oficial](https://www.gatsbyjs.org/tutorial/)._
 
 ## 🚀 Iniciando o Projeto
 
@@ -77,6 +77,14 @@ Dando uma rápida olhada nos arquivos e diretórios de nosso projeto, temos basi
 
 3.  **`/src`**: Este diretório conterá todo o código relacionado ao que você verá no front-end do site (o que você vê no navegador), como o cabeçalho do site ou um modelo de página. `src` é uma convenção para "código fonte".
 
+    3.1   **`/components`**: Diretório onde estão salvos os componentes complementares de código, partes de código que são reaproveitados em várias páginas.
+
+    3.2   **`/images`**: Diretório onde estão salvas todas as imagens que foram utilizadas para a construção do site.
+
+    3.3   **`/pages`**: Diretório onde estão salvas todas as páginas do site.
+
+    3.4   **`/styles`**: Ditetório onde estão salvos todos os arquivos de estilo do site.
+
 4.  **`.gitignore`**: Este arquivo informa ao Git quais arquivos ele não deve rastrear nem manter em um histórico de versões.
 
 5.  **`.prettierrc`**: Este é um arquivo de configuração para o [Prettier](https://prettier.io/). O Prettier é uma ferramenta para ajudar a manter a formatação do seu código consistente.
@@ -87,7 +95,7 @@ Dando uma rápida olhada nos arquivos e diretórios de nosso projeto, temos basi
 
 8.  **`LICENSE`**: Gatsby é licenciado sob a licença MIT.
 
-9. **`package-lock.json`** (Veja `package.json` abaixo primeiro). Este é um arquivo gerado automaticamente com base nas versões exatas das dependências do npm que foram instaladas para o seu projeto. **(Não altere este arquivo diretamente a menos que saiba o que está fazendo).**
+9. **`package-lock.json`** (Veja o `package.json` abaixo primeiro). Este é um arquivo gerado automaticamente com base nas versões exatas das dependências do npm que foram instaladas para o seu projeto. **(Não altere este arquivo diretamente a menos que saiba o que está fazendo).**
 
 10. **`package.json`**: Um arquivo de manifesto para projetos Node.js., que inclui itens como metadados (nome, autor do projeto, etc.). Este manifesto é como o npm sabe quais pacotes instalar para o seu projeto.
 
