@@ -7,7 +7,7 @@
   Colegiado de Computação em Gatsby
 </h1>
 
-Esse é um projeto de site inicado em 2020 pelos colaboradores [Eduardo Lacerda](https://github.com/dudulacerdadl) e [Ana Takaoka](https://github.com/AnaGabiK) com o intuido de criar uma página para o Colegiado de Computação da UniFil, utilizando o Gatsby como ferramenta para essa construção.
+Esse é um projeto de site inicado em 2020 pelos colaboradores [Eduardo Lacerda](https://github.com/dudulacerdadl) e [Ana kataoka](https://github.com/AnaGabiK) com o intuido de criar uma página para o Colegiado de Computação da UniFil, utilizando o Gatsby como ferramenta para essa construção.
 
 _Não conhece o gatsby? Inicie o tutorial e intale as ferramentas através do [site oficial](https://www.gatsbyjs.org/tutorial/)._
 
