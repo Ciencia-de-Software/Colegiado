@@ -29,11 +29,11 @@
 }
 
 .navegação img{
-  margin: 10px 100px 10px 100px;
+  margin: 10px 70px 10px 70px;
   vertical-align: middle;
   filter: grayscale(100%);
   padding: 25px;
-  width: 200px;
+  width: 175px;
 }
 
 .navegação img:hover{
