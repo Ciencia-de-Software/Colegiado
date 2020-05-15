@@ -50,52 +50,49 @@ _Não conhece o gatsby? Inicie o tutorial e intale as ferramentas atravéz do [s
 
     Salve suas alterações e o navegador será atualizado em tempo real!
 
-## 🧐 What's inside?
+## 🧐 O que temos aqui dentro?
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+Dando uma rápida olhada nos arquivos e diretórios de nosso projeto, temos basicamente:
 
     .
     ├── node_modules
+    ├── public
     ├── src
+    |   ├── components
+    |   ├── images
+    |   ├── pages
+    |   └── styles
     ├── .gitignore
     ├── .prettierrc
     ├── gatsby-browser.js
     ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
     ├── LICENSE
     ├── package-lock.json
     ├── package.json
     └── README.md
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+1.  **`/node_modules`**: Este diretório contém todos os módulos de código (pacotes npm) dos quais o projeto depende. Caso você não tenha esse diretório ou tenha o excluido, utilize o comando `npm install` dentro do diretório raiz do projeto para recuperá-lo.
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+2.  **`/public`**: É o repositório no qual está localizado os arquivos utilizados para o Deploy da página no [repositório do GitHub](https://ciencia-de-software.github.io/Colegiado/)
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+3.  **`/src`**: Este diretório conterá todo o código relacionado ao que você verá no front-end do site (o que você vê no navegador), como o cabeçalho do site ou um modelo de página. `src` é uma convenção para "código fonte".
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+4.  **`.gitignore`**: Este arquivo informa ao Git quais arquivos ele não deve rastrear nem manter em um histórico de versões.
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+5.  **`.prettierrc`**: Este é um arquivo de configuração para o [Prettier](https://prettier.io/). O Prettier é uma ferramenta para ajudar a manter a formatação do seu código consistente.
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+6.  **`gatsby-browser.js`**: É neste arquivo que o Gatsby espera encontrar qualquer uso das [APIs do navegador Gatsby](https://www.gatsbyjs.org/docs/browser-apis/) (se houver). Isso permite a personalização / extensão das configurações padrão do Gatsby que afetam o navegador.
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+7.  **`gatsby-config.js`**: Este é o principal arquivo de configuração de um site do Gatsby. É aqui que você pode especificar informações sobre seu site (metadados), como será o título e a descrição do site, quais plug-ins do Gatsby você gostaria de incluir, etc. (Confira os [documentos de configuração](https://www.gatsbyjs.org/docs/gatsby-config/) para mais detalhes).
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+8.  **`LICENSE`**: Gatsby é licenciado sob a licença MIT.
 
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
+9. **`package-lock.json`** (Veja `package.json` abaixo primeiro). Este é um arquivo gerado automaticamente com base nas versões exatas das dependências do npm que foram instaladas para o seu projeto. **(Não altere este arquivo diretamente a menos que saiba o que está fazendo).**
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+10. **`package.json`**: Um arquivo de manifesto para projetos Node.js., que inclui itens como metadados (nome, autor do projeto, etc.). Este manifesto é como o npm sabe quais pacotes instalar para o seu projeto.
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`README.md`**: A text file containing useful reference information about your project.
+11. **`README.md`**: Esse arquivo que você está lendo! Aqui contém informações sobre o projeto e coisas que você precisa saber para seu desenvolvimento. Você pode editar esse arquivo utilizando a linguagem Markdown.
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
-
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+Nossa página utiliza como repositório o [GitHub Pages](https://pages.github.com/). Para realização do Deploy, foi utilizado o a extenção `gh-pages`, e você pode ter uma explicação bem mais detalhada [clicando aqui](https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/).
