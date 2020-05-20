@@ -13,6 +13,7 @@ export default () =>
                             <nav class="menu">
                                 <ul>
                                     <li><strong>Cursos</strong>
+                                    <li>Cursos</li>
                                     <ul>
                                             <li><a href="https://unifil.br/portal/graduacao/exatas/ciencia-da-computacao" target="_blank" rel="noopener noreferrer">Ciência da Computação</a></li>
                                             <li><a href="https://unifil.br/portal/graduacao/exatas/engenharia-de-software" target="_blank" rel="noopener noreferrer">Eng. de Software</a></li>
