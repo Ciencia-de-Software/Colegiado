@@ -63,7 +63,7 @@ export default () =>
                                     <p><span>DESCRIÇÃO:</span> Projeto de criação do site para o Colegiado de Computação do Centro de Ensino Filadélfia (UniFil), utilizando Gatsby.</p>
                                 </div>
                                 <div class="botao-projeto">
-                                    <a href="https://gitlab.com/dudulacerda/Colegiado" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://gitlab.com/npi-unifil/site-npi" target="_blank" rel="noopener noreferrer">
                                         <span class="botao-acessar">
                                             Acessar
                                         </span>
@@ -81,7 +81,7 @@ export default () =>
                                     <p><span>DESCRIÇÃO:</span> Projeto de criação do site para o Colegiado de Computação do Centro de Ensino Filadélfia (UniFil), utilizando Gatsby.</p>
                                 </div>
                                 <div class="botao-projeto">
-                                    <a href="https://gitlab.com/dudulacerda/Colegiado" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://gitlab.com/npi-unifil/site-npi" target="_blank" rel="noopener noreferrer">
                                         <span class="botao-acessar">
                                             Acessar
                                         </span>
