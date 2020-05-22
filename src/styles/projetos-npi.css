@@ -1,71 +1,100 @@
-.titulo-pagina-npi {
-  font-size: 32px;
-  padding: 15px 25px 15px 25px;
-  width: 410px;
+.titulo-npi {
+  font-size: 40pt;
   font-family: monospace;
+  padding: 50px 0px 50px 0px;
+  width: 100%;
+  text-align: center;
+  background: #484848;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.span-npi {
+  text-decoration: underline #ff9100;
+}
+
+.div-sobre-npi {
+  font-size: 25pt;
+  padding: 50px 0px 50px 0px;
+  font-family: monospace;
+}
+
+.titulo-sobre-npi {
+  border-radius: 10px;
+  padding: 15px 25px 15px 25px;
   background-color: rgb(255, 145, 0, 0.5);
 }
 
+.imagem-npi {
+  width: 500px;
+}
+
 .conteudo-npi {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 30px 50px 50px 50px;
-  font-size: 18px;
-}
-
-.titulo-table-npi {
-  display: inline;
-  font-size: 30px;
-  margin-left: 60px;
   font-family: monospace;
-  border-bottom: 2px solid #ff9100;
+  line-height: 33px;
+  font-size: 18pt;
 }
 
-.table-projetos-npi {
-  font-size: 10pt;
-  border-collapse: collapse;
-  margin-top: 15px;
-  margin-left: 1%;
-  width: 95%;
+.descriscao-npi {
+  padding: 20px;
 }
 
-.table-projetos-npi tr:nth-child(odd) {
-  background-color: rgb(49, 49, 49);
+.div-trabalhos-npi {
+  text-align: right;
+  font-size: 25pt;
+  padding: 50px 0px 50px 0px;
+  font-family: monospace;
 }
 
-.table-projetos-npi tr:nth-child(even) {
-  background-color: none;
+.titulo-trabalhos-npi {
+  border-radius: 10px;
+  padding: 15px 25px 15px 25px;
+  background-color: rgb(255, 145, 0, 0.5);
 }
 
-.table-projetos-npi td {
-  text-align: left;
-  padding: 8px 20px 8px 20px;
+.div-conteudos-trabalhos {
+  font-size: 18pt;
+  line-height: 35px;
+  font-family: monospace;
 }
 
-.table-projetos-npi th {
-  text-align: left;
-  border-bottom: 1px solid #ff9100;
-  background-color: rgb(26, 25, 25);
-  padding: 10px 20px 10px 20px;
+.div-conteudos-trabalhos tr, .div-conteudos-trabalhos td {
+  padding: 0px 20px 50px 20px;
 }
 
-.paginas-table-projetos {
-  width: 150px;
-  margin: 5px 0px 40px 80%;
+.titulo-aluno {
+  text-decoration: underline #ff9100;
+  font-size: 25pt;
+  padding: 20px;
 }
 
-.paginas-table-projetos button {
-  color: #d8d8d8;
-  background-color: #3b3b3b;
-  border: none;
+.titulo-aluno a {
+  font-size: 50px;
+  margin: 0px 0px 0px 40px;
 }
 
-.paginas-table-projetos span {
-  font-size: 20px;
-  padding: 0 3px 0 3px;
+.titulo-aluno a:hover {
+  color: #ff9100;
 }
 
-.pagina-um-projetos {
+.corpo-aluno span {
   text-decoration: underline;
+}
+
+.botao-projeto {
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+}
+
+.botao-acessar {
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  background-color: rgb(255, 145, 0, 0.5);
+}
+
+.botao-acessar:hover {
+  background-color: #ff9100;
+  color: white;
 }
 
 .atendimento-npi {
@@ -80,9 +109,13 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   list-style-type: none;
-  margin-bottom: 40px;
+  margin: 20px 0px 40px 0px;
 }
 
 .dados-do-npi li {
   padding: 5px;
+}
+
+.dados-do-npi li span {
+  padding: 10px;
 }
