@@ -65,7 +65,7 @@
 .titulo-aluno {
   text-decoration: underline #ff9100;
   font-size: 25pt;
-  padding: 20px;
+  padding: 20px 0px 20px 0px;
 }
 
 .titulo-aluno a {

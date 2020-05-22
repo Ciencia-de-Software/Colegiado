@@ -54,16 +54,16 @@ export default () =>
                         <tr>
                             <td>
                                 <div class="titulo-aluno">
-                                    Nome do Aluno 
-                                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
-                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'github-square']} /></a>
+                                    Ana Kataoka
+                                    <a href="https://www.linkedin.com/in/ana-kataoka-9370601a4/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+                                    <a href="https://github.com/AnaGabiK" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'github-square']} /></a>
                                 </div>
                                 <div class="corpo-aluno">
-                                    <p><span>TRABALHO:</span> Nome do trabalho</p>
-                                    <p><span>DESCRIÇÃO:</span> Esse espaço é dedicado a descrição do trabalho apresentado, escreva sobre o que é o trabalho e caso queira um comentário adicional sobre.</p>
+                                    <p><span>TRABALHO:</span> Colegiado UniFil</p>
+                                    <p><span>DESCRIÇÃO:</span> Projeto de criação do site para o Colegiado de Computação do Centro de Ensino Filadélfia (UniFil), utilizando Gatsby.</p>
                                 </div>
                                 <div class="botao-projeto">
-                                    <a href="https://gitlab.com/" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://gitlab.com/dudulacerda/Colegiado" target="_blank" rel="noopener noreferrer">
                                         <span class="botao-acessar">
                                             Acessar
                                         </span>
@@ -72,16 +72,16 @@ export default () =>
                             </td>
                             <td>
                                 <div class="titulo-aluno">
-                                    Nome do Aluno 
-                                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
-                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'github-square']} /></a>
+                                    Eduardo Lacerda
+                                    <a href="https://www.linkedin.com/in/dudulacerda/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+                                    <a href="https://github.com/dudulacerdadl" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'github-square']} /></a>
                                 </div>
                                 <div class="corpo-aluno">
-                                    <p><span>TRABALHO:</span> Nome do trabalho</p>
-                                    <p><span>DESCRIÇÃO:</span> Esse espaço é dedicado a descrição do trabalho apresentado, escreva sobre o que é o trabalho e caso queira um comentário adicional sobre.</p>
+                                    <p><span>TRABALHO:</span> Colegiado UniFil</p>
+                                    <p><span>DESCRIÇÃO:</span> Projeto de criação do site para o Colegiado de Computação do Centro de Ensino Filadélfia (UniFil), utilizando Gatsby.</p>
                                 </div>
                                 <div class="botao-projeto">
-                                    <a href="https://gitlab.com/" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://gitlab.com/dudulacerda/Colegiado" target="_blank" rel="noopener noreferrer">
                                         <span class="botao-acessar">
                                             Acessar
                                         </span>
@@ -92,16 +92,16 @@ export default () =>
                         <tr>
                             <td>
                                 <div class="titulo-aluno">
-                                    Nome do Aluno 
-                                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
-                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'github-square']} /></a>
+                                    Maria Fernanda
+                                    <a href="https://www.linkedin.com/in/maria-fernanda-vaz-romero-51b369184/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+                                    <a href="https://github.com/VazMF" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'github-square']} /></a>
                                 </div>
                                 <div class="corpo-aluno">
-                                    <p><span>TRABALHO:</span> Nome do trabalho</p>
-                                    <p><span>DESCRIÇÃO:</span> Esse espaço é dedicado a descrição do trabalho apresentado, escreva sobre o que é o trabalho e caso queira um comentário adicional sobre.</p>
+                                    <p><span>TRABALHO:</span> Clonagem do Hacker News</p>
+                                    <p><span>DESCRIÇÃO:</span> Clonagem do site Hacker News como forma de estudo e treino das habilidades em HTML5 e CSS3.</p>
                                 </div>
                                 <div class="botao-projeto">
-                                    <a href="https://gitlab.com/" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://github.com/VazMF/CEV-HTML5" target="_blank" rel="noopener noreferrer">
                                         <span class="botao-acessar">
                                             Acessar
                                         </span>
