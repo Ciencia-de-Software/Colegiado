@@ -26,6 +26,9 @@
 }
 
 .imagem-npi {
+  border: 15px solid #252525;
+  border-style: ridge;
+  border-radius: 10px;
   width: 500px;
 }
 
@@ -63,12 +66,14 @@
 }
 
 .titulo-aluno {
+  color: white;
   text-decoration: underline #ff9100;
   font-size: 25pt;
   padding: 20px 0px 20px 0px;
 }
 
 .titulo-aluno a {
+  color: white;
   font-size: 40px;
   margin: 0px 0px 0px 30px;
 }
@@ -78,7 +83,13 @@
 }
 
 .corpo-aluno span {
-  text-decoration: underline;
+  font-size: 20pt;
+  font-weight: bold;
+  color: white;
+}
+
+.corpo-aluno a:hover {
+  text-decoration: underline #ff9100;
 }
 
 .botao-projeto {
@@ -94,6 +105,36 @@
 
 .botao-acessar:hover {
   background-color: #ff9100;
+  color: white;
+}
+
+.titulo-professor {
+  color: white;
+  text-decoration: underline #ff9100;
+  font-size: 25pt;
+  padding: 20px 0px 20px 0px;
+}
+
+.titulo-professor a {
+  color: white;
+  font-size: 40px;
+  margin: 0px 0px 0px 30px;
+}
+
+.titulo-professor a:hover {
+  color: #ff9100;
+}
+
+.imagem-professor {
+  border: 10px solid #252525;
+  border-style: ridge;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.corpo-professor span {
+  font-size: 20pt;
+  font-weight: bold;
   color: white;
 }
 
