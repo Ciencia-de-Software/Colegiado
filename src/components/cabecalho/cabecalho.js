@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Logo from "../../images/logo.png"
+import "./cabecalho.css"
 
 export default () =>
     <>

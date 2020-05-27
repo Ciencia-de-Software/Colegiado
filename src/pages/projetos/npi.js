@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
+import "./projetos-npi.css"
 
 library.add(fab)
 library.add(fas)
@@ -156,6 +157,7 @@ export default () =>
                             </div>
                             <div class="corpo-professor">
                                 <p><span>Coordenador do Projeto</span></p>
+                                <br />
                                 <p>Professor adjunto  da UniFil - Centro Universitário Filadélfia, Bacharel em Ciência da Computação pela Pontifícia Universidade Católica de Minas Gerais (PUC-MG), e mestre, também em Ciência da Computação, pela Universidade Estadual de Londrina (UEL), quando foi bolsista CAPES.</p>
                             </div>
                             <div class="botao-projeto">
