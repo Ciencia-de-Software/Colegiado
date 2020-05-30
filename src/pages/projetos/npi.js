@@ -77,6 +77,30 @@ export default () =>
                         <tr>
                             <td>
                                 <Colaboradores
+                                    aluno = "Leonardo Lima"
+                                    linkedin = "https://www.linkedin.com/in/leonardo-vin%C3%ADcius-r-7ba1a6118/"
+                                    github = "https://github.com/LeonardoRochaLima"
+                                    projetoatual = "https://www.unifil.br/portal/institucional/servicos/programa-aplicativo-fiscal"
+                                    titulotrabalho = "PAF-ECF"
+                                    resumo = "O Programa Aplicativo Fiscal – Emissor Cupom Fiscal foi desenvolvido para possibilitar o envio de comandos ao software básico do ECF, sem capacidade de alterá-lo ou ignorá-lo."
+                                    pagprojetos = "https://gitlab.com/npi-unifil"
+                                />
+                            </td>
+                            <td>
+                                <Colaboradores
+                                    aluno = "Pedro Rocha"
+                                    linkedin = "https://www.linkedin.com/in/pedro-fernando-dalbello-rocha-437b791a5/"
+                                    github = "https://github.com/"
+                                    projetoatual = "https://www.unifil.br/portal/institucional/servicos/programa-aplicativo-fiscal"
+                                    titulotrabalho = "PAF-ECF"
+                                    resumo = "O Programa Aplicativo Fiscal – Emissor Cupom Fiscal foi desenvolvido para possibilitar o envio de comandos ao software básico do ECF, sem capacidade de alterá-lo ou ignorá-lo."
+                                    pagprojetos = "https://gitlab.com/npi-unifil"
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <Colaboradores
                                     aluno = "Ana Kataoka"
                                     linkedin = "https://www.linkedin.com/in/ana-kataoka-9370601a4/"
                                     github = "https://github.com/AnaGabiK"
@@ -101,23 +125,23 @@ export default () =>
                         <tr>
                             <td>
                                 <Colaboradores
-                                    aluno = "Maria Fernanda"
-                                    linkedin = "https://www.linkedin.com/in/maria-fernanda-vaz-romero-51b369184/"
-                                    github = "https://github.com/VazMF"
-                                    projetoatual = "https://github.com/VazMF/CEV-HTML5"
-                                    titulotrabalho = "Clonagem do Hacker News"
-                                    resumo = "Clonagem do site Hacker News como forma de estudo e treino das habilidades em HTML5 e CSS3."
+                                    aluno = "Guilherme Jordão"
+                                    linkedin = "https://www.linkedin.com/"
+                                    github = "https://github.com/"
+                                    projetoatual = "https://gitlab.com/Tiotiop/projeto_estagio"
+                                    titulotrabalho = "Coffe-Break"
+                                    resumo = "[Esse espaço é dedicado a descrição do trabalho apresentado, escreva sobre o que é o trabalho e caso queira um comentário adicional sobre.]"
                                     pagprojetos = "https://gitlab.com/npi-unifil"
                                 />
                             </td>
                             <td>
                                 <Colaboradores
-                                    aluno = "Nome do Aluno"
-                                    linkedin = "https://www.linkedin.com/"
-                                    github = "https://github.com/"
-                                    projetoatual = "https://gitlab.com/"
-                                    titulotrabalho = "Nome do trabalho"
-                                    resumo = "Esse espaço é dedicado a descrição do trabalho apresentado, escreva sobre o que é o trabalho e caso queira um comentário adicional sobre."
+                                    aluno = "Leonardo Morita"
+                                    linkedin = "https://www.linkedin.com/in/leonardo-morita-7a340018a/"
+                                    github = "https://github.com/leonardomorita"
+                                    projetoatual = "https://gitlab.com/npi-unifil/gerenciador-horario-psicologia"
+                                    titulotrabalho = "Sistema gerenciador de quadro de horário para o curso de Psicologia da Unifil"
+                                    resumo = "O sistema será desenvolvido para o curso de Psicologia da UniFil."
                                     pagprojetos = "https://gitlab.com/npi-unifil"
                                 />
                             </td>
@@ -125,23 +149,36 @@ export default () =>
                         <tr>
                             <td>
                                 <Colaboradores
-                                    aluno = "Nome do Aluno"
-                                    linkedin = "https://www.linkedin.com/"
-                                    github = "https://github.com/"
-                                    projetoatual = "https://gitlab.com/"
-                                    titulotrabalho = "Nome do trabalho"
-                                    resumo = "Esse espaço é dedicado a descrição do trabalho apresentado, escreva sobre o que é o trabalho e caso queira um comentário adicional sobre."
+                                    aluno = "Maria Fernanda"
+                                    linkedin = "https://www.linkedin.com/in/maria-fernanda-vaz-romero-51b369184/"
+                                    github = "https://github.com/VazMF"
+                                    projetoatual = "https://github.com/VazMF/edx"
+                                    titulotrabalho = "Clonagem do Hacker News"
+                                    resumo = "Clonagem do site Hacker News como forma de estudo e treino das habilidades em HTML5 e CSS3."
                                     pagprojetos = "https://gitlab.com/npi-unifil"
                                 />
                             </td>
                             <td>
                                 <Colaboradores
-                                    aluno = "Nome do Aluno"
+                                    aluno = "Sergio Saruiji"
                                     linkedin = "https://www.linkedin.com/"
                                     github = "https://github.com/"
                                     projetoatual = "https://gitlab.com/"
-                                    titulotrabalho = "Nome do trabalho"
-                                    resumo = "Esse espaço é dedicado a descrição do trabalho apresentado, escreva sobre o que é o trabalho e caso queira um comentário adicional sobre."
+                                    titulotrabalho = "[Nome do trabalho]"
+                                    resumo = "[Esse espaço é dedicado a descrição do trabalho apresentado, escreva sobre o que é o trabalho e caso queira um comentário adicional sobre.]"
+                                    pagprojetos = "https://gitlab.com/npi-unifil"
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <Colaboradores
+                                    aluno = "Walter Marinho"
+                                    linkedin = "https://www.linkedin.com/in/walter-marinho-47a98b190//"
+                                    github = "https://github.com/walttsm"
+                                    projetoatual = "https://gitlab.com/Tiotiop/projeto_estagio"
+                                    titulotrabalho = "Coffe-Break"
+                                    resumo = "[Esse espaço é dedicado a descrição do trabalho apresentado, escreva sobre o que é o trabalho e caso queira um comentário adicional sobre.]"
                                     pagprojetos = "https://gitlab.com/npi-unifil"
                                 />
                             </td>
