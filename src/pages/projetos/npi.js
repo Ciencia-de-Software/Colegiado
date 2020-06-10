@@ -75,9 +75,10 @@ const AlunosProjetos = () => {
                         </span>
                     </div>
 
+                    <div class="div-mae">
                     {data.allMarkdownRemark.edges.map((edge) => {
                         return (
-                            <>
+                            <div class="div-trabalhos">
                                 <div class="div-conteudos-trabalhos">
                                     <div class="titulo-aluno">
                                         {edge.node.frontmatter.aluno}
@@ -96,9 +97,10 @@ const AlunosProjetos = () => {
                                         </a>
                                     </div>
                                 </div>
-                            </>
+                            </div>
                         )
                     })}
+                    </div>
 
                     <table class="div-conteudos-trabalhos">
                         <tr>

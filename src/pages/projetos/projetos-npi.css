@@ -42,6 +42,13 @@
   padding: 20px;
 }
 
+.div-mae {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 25px 25px;
+  padding: 10px;
+}
+
 .div-trabalhos-npi {
   text-align: right;
   font-size: 25pt;
