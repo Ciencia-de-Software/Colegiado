@@ -7,5 +7,15 @@
 module.exports = {
   /* Your site config here */
   pathPrefix: "/Colegiado",
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/`,
+        name: 'src',
+      }
+    },
+    "gatsby-transformer-remark"
+  ]
 }
