@@ -71,7 +71,7 @@ const AlunosProjetos = () => {
                     </div>
                     <div class="div-trabalhos-npi">
                         <span class="titulo-trabalhos-npi">
-                            Projetos
+                            Projetos do NPI
                         </span>
                     </div>
 
