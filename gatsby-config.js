@@ -12,9 +12,16 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/`,
-        name: 'src',
-      }
+        path: `${__dirname}/src/components/eventos/noticias`,
+        name: 'noticias',
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `projetos-dos-alunos`,
+        path: `${__dirname}/src/pages/projetos/projetos-dos-alunos`,
+      },
     },
     "gatsby-transformer-remark"
   ]
