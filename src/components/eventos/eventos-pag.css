@@ -1,24 +1,36 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  line-height: 28px;
+}
+
+::-webkit-details-marker {
+  display: none;
+}
+
 .areaeventos {
   margin-top: 5%;
   margin-bottom: 5%;
 }
 
-.teventos {
+.tevento {
   color: #d8d8d8;
   width: 100%;
   font-size: 25pt;
   font-family: monospace;
   background-color: #252525;
+  border-radius: 0px;
 }
 
 .tabtítulo {
   border-bottom: solid #ff9100;
-  padding: 10px;
+  padding: 25px;
   text-align: center;
 }
 
 .tcorpo {
-  padding: 20px;
+  padding: 10px;
   font-size: 18pt;
 }
 
@@ -27,12 +39,35 @@
   background-color: #292929;
 }
 
-.maisnot {
+.tresumo {
+  padding: 15px 0px 15px 0px;
+  width: 100%;
+  border-radius: 0px;
+  background-color: #252525;
+  color: #d8d8d8;
+  font-size: 14pt;
+  font-family: monospace;
+}
+
+.ttitulo {
+  padding: 15px 0px 15px 0px;
+  position: relative;
+  font-size: 18pt;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.link {
+  padding: 0px 10px 0px 0px;
   background-color: black;
-  font-size: 12pt;
+  font-size: 10pt;
   text-align: right;
 }
 
-.maisnot a:hover{
+.link a:hover{
   color: #ff9100;
+}
+
+.linhazinha {
+  font-size: 10pt;
 }

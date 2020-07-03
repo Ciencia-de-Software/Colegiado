@@ -5,13 +5,16 @@ import { graphql, useStaticQuery } from 'gatsby'
 
 const Noticias = () => {
     const noticia = useStaticQuery(graphql`
-        query MyQuery {
+        query {
             allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(noticias)/"}}) {
                 edges {
                     node {
                         frontmatter {
                             link
                             title
+                            resume
+                            date
+                            author
                         }
                     }
                 }
@@ -20,20 +23,23 @@ const Noticias = () => {
     return(
         <>
             <div class="teventos">
-                <div class="tabtítulo">
+                <div class="tabtítulos">
                     <h1>Notícias</h1>
                 </div>
             {noticia.allMarkdownRemark.edges.map((edge) => {
                 return (
-                    <a href={edge.node.frontmatter.link} target="_blank" rel="noopener noreferrer">
-                        <div class="tcorpo">
-                            <p class="not1">{edge.node.frontmatter.title}</p>
-                        </div>
-                    </a>
+                    <div class="tcorpos">
+                        <details>
+                            <summary class="ttitulos">{edge.node.frontmatter.title}</summary>
+                            <p class="tresumos">{edge.node.frontmatter.resume}</p>
+                            <p class="links"><a href={edge.node.frontmatter.link} target="_blank" rel="noopener noreferrer">Continuar</a></p>
+                        </details>
+                        <p class="linhazinha">{edge.node.frontmatter.date} - {edge.node.frontmatter.author}</p>
+                    </div>
                 )
             })}
-                <div class="maisnot">
-                    <a href="https://www.unifil.br/portal/institucional/quem-somos/noticias" target="_blank" rel="noopener noreferrer">+ Ver mais notícias</a>
+                <div class="maisnots">
+                    <Link to="/noticias/">+ Ver mais notícias</Link>
                 </div>
             </div>
         </>
