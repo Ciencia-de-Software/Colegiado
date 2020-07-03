@@ -33,7 +33,7 @@ const Noticias = () => {
                 )
             })}
                 <div class="maisnot">
-                    <Link to="/noticias/">+ Ver mais notícias</Link>
+                    <a href="https://www.unifil.br/portal/institucional/quem-somos/noticias" target="_blank" rel="noopener noreferrer">+ Ver mais notícias</a>
                 </div>
             </div>
         </>
