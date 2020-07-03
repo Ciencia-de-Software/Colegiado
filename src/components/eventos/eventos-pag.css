@@ -1,0 +1,38 @@
+.areaeventos {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.teventos {
+  color: #d8d8d8;
+  width: 100%;
+  font-size: 25pt;
+  font-family: monospace;
+  background-color: #252525;
+}
+
+.tabtítulo {
+  border-bottom: solid #ff9100;
+  padding: 10px;
+  text-align: center;
+}
+
+.tcorpo {
+  padding: 20px;
+  font-size: 18pt;
+}
+
+.tcorpo:hover{
+  color: white;
+  background-color: #292929;
+}
+
+.maisnot {
+  background-color: black;
+  font-size: 12pt;
+  text-align: right;
+}
+
+.maisnot a:hover{
+  color: #ff9100;
+}

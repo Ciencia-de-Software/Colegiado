@@ -1,6 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
-import "./eventos.css"
+import "./eventos-pag.css"
 import { graphql, useStaticQuery } from 'gatsby'
 
 const Noticias = () => {
@@ -32,9 +31,6 @@ const Noticias = () => {
                     </a>
                 )
             })}
-                <div class="maisnot">
-                    <Link to="/noticias/">+ Ver mais notícias</Link>
-                </div>
             </div>
         </>
     )
