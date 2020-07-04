@@ -61,6 +61,9 @@ const Parceria2 = props => (
 
 export default () =>
     <>
+    <title>Parcerias - Colegiado de Computação</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <Cabecalho />
         <p class="partitulo"><h1><strong>Parcerias Acadêmicas</strong></h1></p>
         <br />

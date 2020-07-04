@@ -5,14 +5,15 @@
  */
 
 module.exports = {
-  siteMetadata: {
-    title: `Colegiado Computação - UniFil`,
-    siteUrl: `https://ciencia-de-software.github.io/Colegiado/`,
-    description: `Projeto de criação do site para o Colegiado de Computação do Centro de Ensino Filadélfia (UniFil), utilizando Gatsby.`,
-  },
   /* Your site config here */
   pathPrefix: "/Colegiado",
   plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: `src/images/logo3.png`,
+      },
+    },
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
