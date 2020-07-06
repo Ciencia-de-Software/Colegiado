@@ -8,12 +8,6 @@ module.exports = {
   /* Your site config here */
   pathPrefix: "/Colegiado",
   plugins: [
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        icon: `src/images/logo3.png`,
-      },
-    },
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
