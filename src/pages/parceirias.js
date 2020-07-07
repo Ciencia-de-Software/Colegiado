@@ -20,11 +20,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
 library.add(fab)
-/*
-<title>Parcerias - Colegiado de Computação</title>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-*/
+
 const Parceria1 = props => (
     <table class="parceira1">
         <tbody>

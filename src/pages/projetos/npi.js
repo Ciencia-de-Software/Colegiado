@@ -17,17 +17,17 @@ library.add(fas)
 const AlunosProjetos = () => {
     const data = useStaticQuery(graphql`
         query {
-            allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(projetos-dos-alunos)/"}}) {
-                edges {
+            allMarkdownRemark {
+                edges{
                     node {
                         frontmatter {
                             aluno
+                            linkedin 
                             github
-                            linkedin
-                            pagprojetos
                             projetoatual
-                            resumo  
                             titulotrabalho
+                            resumo
+                            pagprojetos
                         }
                     }
                 }

@@ -1,6 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 import "./eventos.css"
+import { Link } from "gatsby"
 import { graphql, useStaticQuery } from 'gatsby'
 
 const Noticias = () => {
