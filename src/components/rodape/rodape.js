@@ -11,7 +11,7 @@ export default () =>
     <>
         <div class="rodape">
             <div class="logo2">
-                <a href="https://unifil.br/portal/" target="_blank" rel="noopener noreferrer"><img src={Logo2} alt="Logo UniFil"></img></a>
+                <a href="https://unifil.br" target="_blank" rel="noopener noreferrer"><img src={Logo2} alt="Logo UniFil"></img></a>
             </div>
             <div class="endereco">
                 <br />

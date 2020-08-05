@@ -21,7 +21,7 @@ export default () =>
                                     </li>
                                     <li><strong>Área do Aluno</strong>
                                     <ul>
-                                            <li><a href="https://unifil.br/portal/institucional/bibliotecas/nossas-bibliotecas#tab-" target="_blank" rel="noopener noreferrer">Modelos de Documentos</a></li>
+                                            <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj-qaep9oTrAhW_HbkGHf85DuMQFjACegQIARAB&url=https%3A%2F%2Fwww.unifil.br%2Fportal%2Fimages%2Fpdf%2Fbiblioteca%2Fmodelo-de-trabalho-unifil-pos-graduacao.doc&usg=AOvVaw3GxgNTh4lMQhVVxu75h_ER" target="_blank" rel="noopener noreferrer">Modelos de Trabalhos</a></li>
                                             <li><a href="http://portal.filadelfia.br:7778/portal/pls/portal/PORTAL_APP.ACESSO_AOS_PORTAIS.LOGIN" target="_blank" rel="noopener noreferrer">Portal do Estudante</a></li>
                                         </ul>
                                     </li>
