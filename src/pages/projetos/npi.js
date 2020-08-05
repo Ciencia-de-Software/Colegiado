@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 
 import Cabecalho from "../../components/cabecalho/cabecalho"
 import Rodape from "../../components/rodape/rodape"
-import Npi from "../../images/npi-imagem.jpeg"
+import Npi from "../../images/npi-imagem.jpg"
 import Ricado from "../../images/ricardo.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'

@@ -28,7 +28,7 @@ export default () =>
                                     <li><strong>Projetos</strong>
                                     <ul>
                                             <li><Link to="/projetos/npi/">NPI</Link></li>
-                                            <li><a href="https://www.unifil.br/portal/institucional/servicos/programa-aplicativo-fiscal" target="_blank" rel="noopener noreferrer">PAF-ECF</a></li>
+                                            <li><a href="https://unifil.br/servicos-a-comunidade/programa-aplicativo-fiscal/" target="_blank" rel="noopener noreferrer">PAF-ECF</a></li>
                                         </ul>
                                     </li>
                                     <li><strong><Link to="/parceirias/">Parcerias</Link></strong></li>
